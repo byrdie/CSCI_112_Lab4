@@ -21,9 +21,9 @@ int main(int argc, char** argv) {
     char* path1 = "pangram.txt";
     char* path2 = "counto.txt";
 
-    problem_1(path2, 'y');
+    problem_1(path1, 'y');
     problem_2();
-    problem_3(path1);
+    problem_3(path2);
     extra_credit(10);
 
     return (EXIT_SUCCESS);
